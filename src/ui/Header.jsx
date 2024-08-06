@@ -28,7 +28,7 @@ function Header() {
       <nav
         className={`${
           !showSidebar && "max-xl:hidden"
-        }  h-[52px] mr-[6px]  max-xl:absolute   max-xl:left-0 max-xl:top-0 max-xl:bg-primary max-xl:h-screen max-xl:w-full max-xl:z-10`}
+        }  h-[52px] mr-[6px]  max-xl:absolute max-xl:left-0 max-xl:top-0 max-xl:bg-primary max-xl:h-screen max-xl:w-full max-xl:z-10`}
       >
         <ul className="flex items-center max-xl:flex-col gap-[1.8125rem] max-xl:mt-[5rem]">
           <li>
