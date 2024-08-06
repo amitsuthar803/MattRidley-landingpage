@@ -11,7 +11,7 @@ function Header() {
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <header className="flex   items-center max-xl:w-[90%] max-xl:py-[20px]  font-Istok  justify-between pt-[81px] m-auto  max-w-[1231px]">
+    <header className="flex items-center max-xl:w-[90%] max-xl:py-[50px]  font-Istok  justify-between pt-[81px] m-auto  max-w-[1231px]">
       <h2
         className="m-0
         flex items-center  justify-start"
@@ -27,8 +27,8 @@ function Header() {
 
       <nav
         className={`${
-          !showSidebar && "max-xl:hidden "
-        }  h-[52px] mr-[6px]  max-xl:absolute   max-xl:left-0 max-xl:top-0 max-xl:bg-primary max-xl:h-full max-xl:w-full max-xl:z-10   `}
+          !showSidebar && "max-xl:hidden"
+        }  h-[52px] mr-[6px]  max-xl:absolute   max-xl:left-0 max-xl:top-0 max-xl:bg-primary max-xl:h-screen max-xl:w-full max-xl:z-10`}
       >
         <ul className="flex items-center max-xl:flex-col gap-[1.8125rem] max-xl:mt-[5rem]">
           <li>

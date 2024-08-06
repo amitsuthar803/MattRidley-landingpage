@@ -4,7 +4,7 @@ function Home() {
     <div className="flex max-xl:flex-col  max-xl:items-center ">
       {/*left side */}
       <aside className=" w-1/2  max-xl:w-[90%] mt-[46px] max-xl:mt-[10px] relative max-xl:h-[300px] ">
-        <div className="h-[785px] mb-[54px]  ">
+        <div className="h-[785px] mb-[54px]">
           <div className="circle absolute right-[84px] max-xl:right-0 max-xl:m-auto  max-xl:left-0 flex items-center justify-center   bg-accent w-[785px] h-[785px] rounded-full max-xl:flex-initial max-xl:max-w-[300px] max-xl:max-h-[300px] max-xl:w-full">
             <img src={bookImg} alt="book" className=" max-xl:max-w-[150px] " />
           </div>
